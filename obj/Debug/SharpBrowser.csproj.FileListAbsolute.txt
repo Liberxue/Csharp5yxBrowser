@@ -1,0 +1,12 @@
+D:\src\bin\SharpBrowser.exe.config
+D:\src\bin\SharpBrowser.exe
+D:\src\bin\SharpBrowser.pdb
+D:\src\obj\Debug\SharpBrowser.csprojResolveAssemblyReference.cache
+D:\src\obj\Debug\SharpBrowser.MainForm.resources
+D:\src\obj\Debug\SharpBrowser.Properties.Resources.resources
+D:\src\obj\Debug\SharpBrowser.csproj.GenerateResource.Cache
+D:\src\obj\Debug\SharpBrowser.exe
+D:\src\obj\Debug\SharpBrowser.pdb
+D:\src\bin\CoreAudioApi.dll
+D:\src\bin\shisan13.dll
+D:\src\bin\shisan13.pdb

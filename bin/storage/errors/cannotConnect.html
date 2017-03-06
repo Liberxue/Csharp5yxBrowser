@@ -1,0 +1,48 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" hasBrowserHandlers="true">
+  <head>
+    <title>抱歉！不能连接服务器</title>
+    <link rel="stylesheet" href="aboutNetError.css" type="text/css" media="all" />
+    <!-- If the location of the favicon is changed here, the FAVICON_ERRORPAGE_URL symbol in
+         toolkit/components/places/src/nsFaviconService.h should be updated. -->
+    <link rel="icon" type="image/png" id="favicon" href="chrome://storage/errors/warning-16.png" />
+  </head>
+
+  <body dir="ltr">
+
+    <!-- PAGE CONTAINER (for styling purposes only) -->
+    <div id="errorPageContainer">
+
+      <!-- Error Title -->
+      <div id="errorTitle">
+        <h1 id="errorTitleText">抱歉!威武游戏---没有找到该页面</h1>
+      </div>
+
+      <!-- LONG CONTENT (the section most likely to require scrolling) -->
+      <div id="errorLongContent">
+
+        <!-- Short Description -->
+        <div id="errorShortDesc">
+          <p id="errorShortDescText">威武游戏...不能连接到远程服务器。您可能与Internet断开连接，或者该网站可能处于脱机状态。</p>
+        </div>
+
+        <!-- Long Description (Note: See netError.dtd for used XHTML tags) -->
+        <div id="errorLongDesc">
+<ul>
+  <li>确保您的Internet连接正常。</li>
+  <li>检查网络是否正常</li>
+</ul>
+</div>
+
+        <!-- Override section - For ssl errors only.  Removed on init for other
+             error types.  -->
+        
+
+      </div>
+
+      <!-- Retry Button -->
+      <!--<button id="errorTryAgain" autocomplete="off" onclick="host.refreshActiveTab();" autofocus="true">Try Again</button>-->
+
+    </div>
+
+  </body>
+</html>
